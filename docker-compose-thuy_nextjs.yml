@@ -4,8 +4,8 @@ services:
     restart: always
     build:
       context: ./
-    # ports:
-    #   - "3000:3000"
+    ports:
+      - "4500:4500"
 #     networks:
 #       - root_rent_room_network
 
